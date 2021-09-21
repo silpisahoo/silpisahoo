@@ -1,0 +1,34 @@
+how to setup Git?
+1st u open a ccount in github 
+2nd download the git in ur system and instal it
+then go to any folder right click then click git bassh here 
+then open it  type ssh-keygen then enter 
+then hit enter multiple times upto the process is over 
+go to C:\Users\silpi.sahoo\.ssh and open file id_rsa.pub and open with intelije >copy the contents.
+then go to https://github.com/ > settings > SSH and GPGkrys> add ur ssh key(copypaste)
+
+To set your global username/email configuration:
+open Git bash
+
+Set your username:
+git config --global user.name "silpisahoo"
+
+Set your email address:
+git config --global user.email "silpi18misty@gmail.com"
+To clone repository
+create a folder in c drive example Gitcheckout
+goto https://github.com/ in the browser> repository >username>ssh>copy the ssh url (git@github.com:silpisahoo/silpisahoo.git)
+git clone git@github.com:silpisahoo/silpisahoo.git
+cd <repository name>
+Make  some changes in repository - create a new file or edit some existing files 
+Commands
+git pull
+git status (chnaged file should be in red)
+git add <filename>
+git status (file should be in green)
+git commit -m "first commmit"
+git push
+
+To go to another branch
+git checkout testBranch
+
